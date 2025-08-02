@@ -26,7 +26,7 @@ class ViewController: UIViewController {
         navigationItem.title = "Record"
         
         self.createTabPageview()
-        NotificationCenter.default.addObserver(self, selector: #selector(tap(_:)), name: .demo, object: nil)
+//        NotificationCenter.default.addObserver(self, selector: #selector(tap(_:)), name: .demo, object: nil)
         
     }
     

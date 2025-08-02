@@ -6,5 +6,5 @@ target 'SegmentedControl' do
   use_frameworks!
 
   # Pods for SegmentedControl
-pod 'TabPageViewController'
+ pod "TabPageViewController"
 end

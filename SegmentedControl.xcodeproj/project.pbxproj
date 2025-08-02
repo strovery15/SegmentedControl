@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		615C2613EF96EED42635C1EA /* Pods_SegmentedControl.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E7E64C0D2B1041AF2871D28 /* Pods_SegmentedControl.framework */; };
 		89212B9C2C31E1FE006CFBF2 /* ChildViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89212B9B2C31E1FE006CFBF2 /* ChildViewController.swift */; };
 		8965FCF62C2FDBC2000A5E9F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8965FCF52C2FDBC2000A5E9F /* AppDelegate.swift */; };
 		8965FCF82C2FDBC2000A5E9F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8965FCF72C2FDBC2000A5E9F /* SceneDelegate.swift */; };
@@ -15,11 +14,12 @@
 		8965FCFD2C2FDBC2000A5E9F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8965FCFB2C2FDBC2000A5E9F /* Main.storyboard */; };
 		8965FCFF2C2FDBC3000A5E9F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8965FCFE2C2FDBC3000A5E9F /* Assets.xcassets */; };
 		8965FD022C2FDBC3000A5E9F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8965FD002C2FDBC3000A5E9F /* LaunchScreen.storyboard */; };
+		8982A09A2E3DFCAB00D27E59 /* Pods_SegmentedControl.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D8CE9937083DC4875D98899 /* Pods_SegmentedControl.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		3E7E64C0D2B1041AF2871D28 /* Pods_SegmentedControl.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SegmentedControl.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		569CFF2B793C12324632DB6A /* Pods-SegmentedControl.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SegmentedControl.release.xcconfig"; path = "Target Support Files/Pods-SegmentedControl/Pods-SegmentedControl.release.xcconfig"; sourceTree = "<group>"; };
+		0D8CE9937083DC4875D98899 /* Pods_SegmentedControl.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SegmentedControl.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7B1BCA3781DF0B8D09419261 /* Pods-SegmentedControl.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SegmentedControl.release.xcconfig"; path = "Target Support Files/Pods-SegmentedControl/Pods-SegmentedControl.release.xcconfig"; sourceTree = "<group>"; };
 		89212B9B2C31E1FE006CFBF2 /* ChildViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChildViewController.swift; sourceTree = "<group>"; };
 		8965FCF22C2FDBC2000A5E9F /* SegmentedControl.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SegmentedControl.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8965FCF52C2FDBC2000A5E9F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -29,7 +29,7 @@
 		8965FCFE2C2FDBC3000A5E9F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8965FD012C2FDBC3000A5E9F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8965FD032C2FDBC3000A5E9F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C802F78AA5BA803B9A0C14FD /* Pods-SegmentedControl.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SegmentedControl.debug.xcconfig"; path = "Target Support Files/Pods-SegmentedControl/Pods-SegmentedControl.debug.xcconfig"; sourceTree = "<group>"; };
+		DBB2F7449713B84365C09BF8 /* Pods-SegmentedControl.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SegmentedControl.debug.xcconfig"; path = "Target Support Files/Pods-SegmentedControl/Pods-SegmentedControl.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,19 +37,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				615C2613EF96EED42635C1EA /* Pods_SegmentedControl.framework in Frameworks */,
+				8982A09A2E3DFCAB00D27E59 /* Pods_SegmentedControl.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		18C6AF3F8FD57E88377461B2 /* Frameworks */ = {
+		4B74D9DDAACF1EBF34869630 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				3E7E64C0D2B1041AF2871D28 /* Pods_SegmentedControl.framework */,
+				0D8CE9937083DC4875D98899 /* Pods_SegmentedControl.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6ADDB334A96EF561344669F4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DBB2F7449713B84365C09BF8 /* Pods-SegmentedControl.debug.xcconfig */,
+				7B1BCA3781DF0B8D09419261 /* Pods-SegmentedControl.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 		8965FCE92C2FDBC2000A5E9F = {
@@ -57,8 +66,8 @@
 			children = (
 				8965FCF42C2FDBC2000A5E9F /* SegmentedControl */,
 				8965FCF32C2FDBC2000A5E9F /* Products */,
-				D3F74AC5B427999061850E50 /* Pods */,
-				18C6AF3F8FD57E88377461B2 /* Frameworks */,
+				6ADDB334A96EF561344669F4 /* Pods */,
+				4B74D9DDAACF1EBF34869630 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -85,15 +94,6 @@
 			path = SegmentedControl;
 			sourceTree = "<group>";
 		};
-		D3F74AC5B427999061850E50 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				C802F78AA5BA803B9A0C14FD /* Pods-SegmentedControl.debug.xcconfig */,
-				569CFF2B793C12324632DB6A /* Pods-SegmentedControl.release.xcconfig */,
-			);
-			path = Pods;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -101,11 +101,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8965FD062C2FDBC3000A5E9F /* Build configuration list for PBXNativeTarget "SegmentedControl" */;
 			buildPhases = (
-				AA1B77119564F3D1F68BA997 /* [CP] Check Pods Manifest.lock */,
+				7AA27C03C589987794086C89 /* [CP] Check Pods Manifest.lock */,
 				8965FCEE2C2FDBC2000A5E9F /* Sources */,
 				8965FCEF2C2FDBC2000A5E9F /* Frameworks */,
 				8965FCF02C2FDBC2000A5E9F /* Resources */,
-				D038A0AF02F6CD65EA57FFF0 /* [CP] Embed Pods Frameworks */,
+				2B508364967E223674E417DB /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -163,7 +163,24 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		AA1B77119564F3D1F68BA997 /* [CP] Check Pods Manifest.lock */ = {
+		2B508364967E223674E417DB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SegmentedControl/Pods-SegmentedControl-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SegmentedControl/Pods-SegmentedControl-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SegmentedControl/Pods-SegmentedControl-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7AA27C03C589987794086C89 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -183,23 +200,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		D038A0AF02F6CD65EA57FFF0 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-SegmentedControl/Pods-SegmentedControl-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-SegmentedControl/Pods-SegmentedControl-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SegmentedControl/Pods-SegmentedControl-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -359,13 +359,14 @@
 		};
 		8965FD072C2FDBC3000A5E9F /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C802F78AA5BA803B9A0C14FD /* Pods-SegmentedControl.debug.xcconfig */;
+			baseConfigurationReference = DBB2F7449713B84365C09BF8 /* Pods-SegmentedControl.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = MZ56GJQ89B;
+				ENABLE_APP_SANDBOX = NO;
 				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = SegmentedControl/Info.plist;
@@ -389,13 +390,14 @@
 		};
 		8965FD082C2FDBC3000A5E9F /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 569CFF2B793C12324632DB6A /* Pods-SegmentedControl.release.xcconfig */;
+			baseConfigurationReference = 7B1BCA3781DF0B8D09419261 /* Pods-SegmentedControl.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = MZ56GJQ89B;
+				ENABLE_APP_SANDBOX = NO;
 				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = SegmentedControl/Info.plist;
