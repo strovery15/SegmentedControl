@@ -7,45 +7,39 @@
 
 import UIKit
 
-class ChildViewController: UIViewController {
+class TabPageChildViewController: UIViewController {
     
     @IBOutlet weak var tableView: UITableView!
     
-    var folder = [String]()
+    var items: [String] = []
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        view.backgroundColor = .systemGray6
     }
     
-    init?(coder: NSCoder, folder: [String]) {
-        self.folder = folder
+    init?(coder: NSCoder, items: [String]) {
         super.init(coder: coder)
+        self.items = items
     }
     
     required init?(coder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
     }
-    
 }
-    
 
-extension ChildViewController: UITableViewDataSource, UITableViewDelegate {
+extension TabPageChildViewController: UITableViewDataSource {
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        folder.count - 1
+        items.count
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath)
-        cell.textLabel?.text = folder[indexPath.row + 1]
+        let cell = tableView.dequeueReusableCell(withIdentifier: "Cell", for: indexPath)
+        cell.textLabel?.text = items[indexPath.row]
         return cell
     }
-    
-    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        print("\(self.folder[0])_\(indexPath.row)")
-    }
-    
 }
 
 
