@@ -9,7 +9,7 @@ import TabPageViewController
 
 
 
-class ViewController: UIViewController {
+class MainViewController: UIViewController {
     
     var child: TabPageViewController!
     
